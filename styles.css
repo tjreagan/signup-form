@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(fonts/Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.picture {
+    background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 32%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture a {
+    color: white;
+}
+
+.picture-sidebar {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 35%;
+}
+
+.picture-sidebar img {
+    height: 150px;
+}
+
+.credit {
+    text-align: center;
+    padding: 2%;
+}
+
+h1 {
+    font-family: "Norse Bold";
+    font-size: 86px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 68%;
+    background-color: rbg(248, 248, 248);
+}
+
+.description {
+    margin-left: 5%;
+    margin-right: 32%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description p:first-child {
+    margin-bottom: 3%;
+}
+
+form {
+    background-color: white;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 2px 3px 2px lightgray;
+    padding-left: 4%;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(37, 37, 37);
+}
+
+.input-layout {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.row {
+    display: flex;
+    gap: 7%;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 25px;
+    padding: 3px 10px;
+}
+
+input:valid {
+    border: 1px solid skyblue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+button {
+    background-color: #596D48;
+    width: 225px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2% 3%;
+    margin: 3%;
+    border: #596D48;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px gray;
+}
+
+.subform p {
+    font-size: 14px;
+    margin-left: 3%;
+}
+
+.subform a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
